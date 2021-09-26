@@ -20,8 +20,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Welcome to my random user Api application</h1>
-      <button onClick={fetchRandomUser}>Fetch new random user</button>
+      <h1>Welcome to my random-user Api application</h1>
+      <button className="fetch_btn" onClick={fetchRandomUser}>Fetch new random user</button>
 
       <div className="random_user_container">
         {dataApi.map(person => (
