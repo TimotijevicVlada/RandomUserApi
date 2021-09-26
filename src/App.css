@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.counter {
+  padding: 20px;
+  font-size: 20px;
+}
+.random_user_container {
+  margin-top: 30px;
+}
+.person_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.person_container img {
+  width: 200px;
+  border-radius: 50%;
+}
+.person_container span {
+  padding: 15px;
+  font-size: 20px;
+}
